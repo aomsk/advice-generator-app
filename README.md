@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![advice-generator-app-screenshot](https://github.com/aomsk/advice-generator-app/blob/main/src/assets/advice-generator-app-screenshot.png?raw=true)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-with-react-tailwind-css-typescript-wJqCxzwrI7)
+- Live Site URL: [Advice generator app](https://advice-generator-app-six-wine.vercel.app/)
 
 ## My process
 
