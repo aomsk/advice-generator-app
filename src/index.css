@@ -13,4 +13,32 @@
 
 .btn:hover {
   filter: drop-shadow(0 0 20px hsl(150, 100%, 66%));
+  /* animation-name: spinner;
+  animation-duration: .5s;
+  animation-iteration-count: infinite; */
+  animation: spinner .5s infinite;
+  ;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(50deg);
+  }
+
+  50% {
+    transform: rotate(100deg);
+  }
+
+  80% {
+    transform: rotate(150deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::selection {
+  color: hsl(218, 23%, 16%);
+  background: hsl(150, 100%, 66%)
 }
