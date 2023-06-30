@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+.btn {
+  transition: all .2s ease;
+}
+
+.btn:hover {
+  filter: drop-shadow(0 0 20px hsl(150, 100%, 66%));
+}
