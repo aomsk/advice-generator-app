@@ -43,7 +43,9 @@ function App() {
           onClick={getQoute}
           className="btn p-4 mt-[-30px] fixed ml-[-28px] rounded-full bg-neonGreen"
         >
-          <img src="../static/images/icon-dice.svg" alt="icon-dice" />
+          <span>
+            <img src="../static/images/icon-dice.svg" alt="icon-dice" />
+          </span>
         </button>
       </div>
       <div className="mt-20 text-lightCyan">
