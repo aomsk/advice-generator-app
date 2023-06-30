@@ -41,14 +41,14 @@ function App() {
         <button
           type="button"
           onClick={getQoute}
-          className="btn p-4 mt-[-30px] fixed ml-[-28px] rounded-full bg-neonGreen"
+          className="btn p-4 mt-[-30px] absolute ml-[-28px] rounded-full bg-neonGreen"
         >
           <span>
             <img src="../static/images/icon-dice.svg" alt="icon-dice" />
           </span>
         </button>
       </div>
-      <div className="mt-20 text-lightCyan">
+      <div className="mt-20 text-lightCyan text-center">
         <span>Challenge by </span>
         <span className="text-neonGreen">Frontend Mentor.</span>
         <span>Coded by </span>
